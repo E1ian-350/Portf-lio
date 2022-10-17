@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(180deg, #050d29 0%, #000000 100%);
+    font-size: 100%;
+}
+
+/* Navigation */
+
+.navbar {
+    padding: 0;
+    min-height: 70px;
+
+    font-family: 'Inter', sans-serif;
+    color: #D7E9F5;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    border-bottom: #7a95a7 solid 1px;
+}
+
+a:-webkit-any-link {
+    color: inherit;
+}
+
+.name {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 36.7912px;
+    line-height: 100%;
+}
+
+.itens {
+    display: flex;
+    gap: 15px;
+}
+
+/* First View */
+
+.hello {
+    height: 65vh;
+}
+
+main {
+    margin-bottom: 48px;
+    font-family: 'Fira Code', sans-serif;
+}
+
+.text {
+    text-align: center;
+    margin: 125px auto;
+    font-family: 'Fira Code', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    font-size: 36.7912px;
+    color: #fff;
+    max-width: 706px;
+}
+
+/* About Me */
+
+.about-me {
+    display: flex;
+    flex-direction: row;
+    margin: 0 149px 70px;
+    padding-top: 48px;
+}
+
+div.photo img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+}
+
+.text-about {
+    margin-left: 45px;
+    font-family: 'Fira Code', sans-serif, normal; 
+    font-weight: 400;
+    font-size: 18px;
+    text-align: justify;
+    color: #D1DEF2;
+}
+
+div.text-about p {
+    padding-bottom: 20px;
+}
+
+.title-about-me {
+    margin-bottom: 24px;
+}
+
+/* Technologies */
+
+.title-tech {
+    text-align: center;
+    margin-bottom: 48px;
+
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+
+    border-top: solid 1px #7a95a7;
+    padding-top: 32px;
+}
+
+.title-table {
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+
+    margin-bottom: 48px;
+}
+
+.tech {
+    color: #F5E2E2;
+    font-family: 'Fira Code', sans-serif;
+}
+  
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 75vh;
+  
+    margin-left: 15%;
+    margin-right: 15%;
+}
+  
+.learning {
+    display: grid;
+    grid-template-columns: 1fr 1 fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 15px 15px;
+    grid-gap: 24px;
+}
+
+i {
+    font-size: 80px;
+}
+  
+.html {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    text-align: center;
+}
+
+div.html i {
+    color: #DD4B25;
+}
+  
+.css {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    text-align: center;
+}
+
+div.css i {
+    color: #254BDD;
+}
+  
+.js {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    text-align: center;
+}
+
+div.js i {
+    color: #F7DF1E;
+}
+
+.git {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    text-align: center;
+}
+
+div.git i {
+    color: #E84D31;
+}
+
+.github {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    text-align: center;
+}
+
+div.github i {
+    color: #fff;
+}
+  
+.interest {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: 15px 15px;
+}
+
+.react {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    text-align: center;
+}
+
+div.react i {
+    color: #5ED3F3;
+}
+
+.react-native {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    text-align: center;
+}
+
+div.react-native i {
+    color: #5ED3F3;
+}
+
+/* Projects */
+
+.title-projects {
+    text-align: center;
+    border-top: 1px solid #7a95a7;
+    padding-top: 48px;
+
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;  
+    color: rgba(247, 232, 232, 0.83);
+}
+
+.box-projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px 1fr;
+
+    text-align: center;
+    margin: 48px 0 48px 14%;
+}
+
+.box-projects div {
+    max-width: 385px;
+    max-height: 310px;
+    margin-bottom: 48px;
+}
+
+.project-1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.project-2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.project-3 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.project-4 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+div.box-projects img {
+    width: 385px;
+    height: 240px;
+    border-radius: 40px;
+    padding-bottom: 24px;
+}
+
+div.box-projects p {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    color: #D1DEF2;
+    text-align: justify;
+}
+
+/* Contact */
+
+.title-contact {
+    text-align: center;
+    border-top: 1px solid #7a95a7;
+    padding-top: 48px;
+
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;  
+    color: rgba(247, 232, 232, 0.83);
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 48px 150px;
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 100%;
+    color: rgba(247, 232, 232, 0.83);
+
+    text-align: center;
+}
+
+div.contacts p {
+    margin-top: 16px;
+}
+
+div.linkedin i {
+    color: #0A63BC;
+}
+
+div.git-hub i {
+    color: #fff;
+}
+
+div.wpp i {
+    color: #2FD14B;
+}
+
+/* Footer */
+
+footer {
+    padding: 0;
+    min-height: 50px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    font-weight: 200;
+    color: #D7E9F5;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    border-top: #7a95a7 solid 1px;
+}
+
+/* Animações */
+
+.box-projects div {
+    transition: 0.5s;
+}
+
+.box-projects div:hover {
+    transform: scale(1.1);
+}
+
+.contacts div {
+    transition: 0.2s;
+}
+
+.contacts div:hover {
+    transform: scale(1.15);
+}
+
+.text-1 {
+    animation-name: hello;
+    animation-duration: 2s;
+    animation-delay: .5s;
+    animation-fill-mode: backwards;
+}
+
+.text-2 {
+    animation-name: hello;
+    animation-duration: 2s;
+    animation-delay: 1.2s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes hello {
+   from {
+        opacity: 0;
+        transform: translateX(-90px);
+    }
+   to {
+        opacity: 1;
+        transform: translateX(0);
+   }
+}
