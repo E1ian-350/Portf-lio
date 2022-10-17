@@ -486,6 +486,10 @@ footer {
 }
 
 @media (max-width: 1200px) {
+    body {
+        overflow-x: hidden;
+    }
+
     .about-me {
         display: flex;
         flex-direction: column;
@@ -523,7 +527,32 @@ footer {
 }
 
 @media (max-width: 660px) {
-    .name {
-        font-size: 100%;
+    body {
+        overflow-x: hidden;
+    }
+
+    .about-me {
+        margin-bottom: 48px;
+        margin-right: 100px;
+    }
+
+    .container {
+        margin: 0 auto 48px;
+        width: 90%;
+    }
+
+    .box-projects {
+        margin: auto;
+        width: 90%;
+        
+    }
+
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 28px;
     }
 }
+    
